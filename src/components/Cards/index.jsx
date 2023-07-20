@@ -2,7 +2,7 @@ import './styles.scss'
 
 export function Cards() {
   return (
-    <div className='card-vertical'>
+    <div className='card card-vertical'>
       <div className='card-vertical__image'>
         <img src="/card-image.png" alt="Woman" />
       </div>

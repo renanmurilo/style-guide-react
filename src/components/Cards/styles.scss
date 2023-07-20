@@ -1,56 +1,58 @@
-.card-vertical {
-  max-width: 300px;
-  min-height: 500px;
+.card {
+  &-vertical {
+    max-width: 300px;
+    min-height: 500px;
 
-  &__image {
-    max-width: 100%;
-    height: 349px;
-
-    img {
+    &__image {
       max-width: 100%;
-      height: auto;
+      height: 349px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
     }
-  }
 
-  &__bottom {
-    background-color: var(--gray-20);
-    min-height: 150px;
-    padding: 30px;
-  }
+    &__bottom {
+      background-color: var(--gray-20);
+      min-height: 150px;
+      padding: 30px;
+    }
 
-  &__title {
-    font-weight: 500;
-    margin-bottom: 5px;
-  }
+    &__title {
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
 
-  &__subtitle {
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--brown-50);
-  }
+    &__subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--brown-50);
+    }
 
-  &__buttons {
-    display: flex;
-    align-items: center;
+    &__buttons {
+      display: flex;
+      align-items: center;
 
-    margin-top: 10px;
-  }
+      margin-top: 10px;
+    }
 
-  &__button-1 {
-    padding: 9px 26px;
-    background-color: var(--brown-90);
-    color: var(--gray-20);
-    border: 1px solid var(--gray-20);
-    border-radius: 3px;
-    margin-right: 10px;
-  }
+    &__button-1 {
+      padding: 9px 26px;
+      background-color: var(--brown-90);
+      color: var(--gray-20);
+      border: 1px solid var(--gray-20);
+      border-radius: 3px;
+      margin-right: 10px;
+    }
 
-  &__button-2 {
-    padding: 9px 26px;
-    background-color: var(--gray-20);
-    color: var(--brown-90);
-    border: 1px solid var(--brown-90);
-    border-radius: 3px;
-    margin-right: 10px;
+    &__button-2 {
+      padding: 9px 26px;
+      background-color: var(--gray-20);
+      color: var(--brown-90);
+      border: 1px solid var(--brown-90);
+      border-radius: 3px;
+      margin-right: 10px;
+    }
   }
 }
