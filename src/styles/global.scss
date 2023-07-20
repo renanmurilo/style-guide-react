@@ -1,0 +1,53 @@
+:root {
+  --gray-10: #fdf4f9;
+  --gray-20: #f1eeea;
+
+  --brown-10: #ccc1b5;
+  --brown-50: #89755f;
+  --brown-60: #5b4e40;
+  --brown-90: #332f2d;
+
+  --bordo-60: #56002b;
+  --bordo-90: #3f0221;
+
+  --pink-10: #fbe1ee;
+  --pink-25: #fae0e0;
+  --pink-50: #fcbfdd;
+  --pink-90: #ff8fc7;
+
+  --green-10: #ebfbd7;
+  --green-25: #fef7d0;
+  --green-50: #ad9100;
+  --green-100: #4b7910;
+
+  --red-50: #ab0056;
+  --red-60: #d7006c;
+  --red-70: #a12525;
+  --red-90: #810040;
+
+  --white: #ffffff;
+  --black: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #121214;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+button,
+.checkmark {
+  cursor: pointer;
+}
