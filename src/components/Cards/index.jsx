@@ -10,8 +10,8 @@ export function Cards() {
         <h3 className='card-vertical__title'>Title</h3>
         <p className='card-vertical__subtitle'>Body</p>
         <div className='card-vertical__buttons'>
-          <button className='card-vertical__button-1'>Button</button>
-          <button className='card-vertical__button-2'>Button</button>   
+          <a href="javascript:void(0)" className='card-vertical__button-1'>Button</a>
+          <a href="javascript:void(0)" className='card-vertical__button-2'>Button</a>   
         </div>
       </div>
     </div>
