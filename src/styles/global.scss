@@ -42,9 +42,15 @@ body {
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 98%;
   margin: 0 auto;
   padding: 2.5rem 1rem;
+
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }
 
 button,

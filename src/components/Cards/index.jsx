@@ -1,17 +1,19 @@
 import './styles.scss'
 
-export function Cards() {
+export function Cards(props) {
   return (
-    <div className='card card-vertical'>
-      <div className='card-vertical__image'>
-        <img src="/card-image.png" alt="Woman" />
+    <div className={`card ${props.className}`}>
+      <div className={`${props.className}__image`}>
+        <img src={`/${props.className}.png`} alt="Woman" />
       </div>
-      <div className='card-vertical__bottom'>
-        <h3 className='card-vertical__title'>Title</h3>
-        <p className='card-vertical__subtitle'>Body</p>
-        <div className='card-vertical__buttons'>
-          <a href="javascript:void(0)" className='card-vertical__button-1'>Button</a>
-          <a href="javascript:void(0)" className='card-vertical__button-2'>Button</a>   
+      <div className={`${props.className}__bottom ${props.color}`}>
+        <div className={`${props.className}__content-title`}>
+          <h3 className={`${props.className}__title ${props.color}`}>Title</h3>
+          <p className={`${props.className}__subtitle ${props.color}`}>Body</p>
+        </div>
+        <div className={`${props.className}__buttons`}>
+          <a href="javascript:void(0)" className={`${props.className}__button-1 ${props.color}`}>Button</a>
+          <a href="javascript:void(0)" className={`${props.className}__button-2 ${props.color}`}>Button</a>   
         </div>
       </div>
     </div>
