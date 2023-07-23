@@ -32,6 +32,10 @@
 
       &.large {
         height: 509px;
+
+        @media (max-width: 767px) {
+          height: auto;
+        }
       }
 
       img {
