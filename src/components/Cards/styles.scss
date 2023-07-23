@@ -2,14 +2,40 @@
   margin: 30px auto;
 
   &-vertical {
-    max-width: 300px;
-    min-height: 500px;
+    &.small {
+      width: 300px;
+      min-height: 500px;
+    }
+
+    &.medium {
+      width: 360px;
+      min-height: 600px;
+    }
+
+    &.large {
+      width: 442px;
+      min-height: 737px;
+    }
 
     &__image {
+      width: 100%;
       max-width: 100%;
       height: 349px;
 
+      &.small {
+        height: 349px;
+      }
+
+      &.medium {
+        height: 415px;
+      }
+
+      &.large {
+        height: 509px;
+      }
+
       img {
+        width: 100%;
         max-width: 100%;
         height: auto;
       }
@@ -18,6 +44,18 @@
     &__bottom {
       min-height: 150px;
       padding: 30px;
+
+      &.small {
+        min-height: 150px;
+      }
+
+      &.medium {
+        min-height: 185px;
+      }
+
+      &.large {
+        min-height: 228px;
+      }
 
       &.pink-10 {
         background-color: var(--pink-10);
@@ -41,6 +79,14 @@
       font-weight: 500;
       margin-bottom: 5px;
 
+      &.medium {
+        font-size: 32px;
+      }
+  
+      &.large {
+        font-size: 40px;
+      }
+
       &.pink-10 {
         color: var(--bordo-60);
       }
@@ -58,11 +104,19 @@
       font-weight: 400;
       font-size: 14px;
       color: var(--brown-50);
-      
+
+      &.medium {
+        font-size: 16px;
+      }
+        
+      &.large {
+        font-size: 20px;
+      }
+
       &.pink-10 {
         color: var(--red-90);
       }
-      
+
       &.bordo-60 {
         color: var(--pink-90);
       }
@@ -96,7 +150,7 @@
         border: 1px solid var(--red-60);
         color: var(--white);
       }
-      
+
       &.bordo-60 {
         background-color: var(--pink-10);
         border: 1px solid var(--pink-10);
@@ -108,7 +162,7 @@
         border: 1px solid var(--red-60);
         color: var(--gray-10);
       }
-      
+
       &.brown-90 {
         background-color: var(--gray-20);
         border: 1px solid var(--gray-20);
@@ -192,7 +246,7 @@
     &__title {
       font-weight: 500;
       margin-bottom: 5px;
-      
+
       &.pink-10 {
         color: var(--bordo-60);
       }
@@ -210,11 +264,11 @@
       font-weight: 400;
       font-size: 14px;
       color: var(--brown-50);
-     
+
       &.pink-10 {
         color: var(--red-90);
       }
-      
+
       &.bordo-60 {
         color: var(--pink-90);
       }
@@ -248,7 +302,7 @@
         border: 1px solid var(--red-60);
         color: var(--white);
       }
-      
+
       &.bordo-60 {
         background-color: var(--pink-10);
         border: 1px solid var(--pink-10);
@@ -260,7 +314,7 @@
         border: 1px solid var(--red-60);
         color: var(--gray-10);
       }
-      
+
       &.brown-90 {
         background-color: var(--gray-20);
         border: 1px solid var(--gray-20);
@@ -275,7 +329,7 @@
       border: 1px solid var(--brown-90);
       border-radius: 3px;
       margin-right: 10px;
-      
+
       &.pink-10 {
         background-color: var(--pink-10);
         border: 1px solid var(--red-50);
@@ -324,7 +378,7 @@
       padding: 30px;
       display: flex;
       justify-content: space-between;
-      
+
       &.pink-10 {
         background-color: var(--pink-10);
       }
@@ -346,7 +400,7 @@
     &__title {
       font-weight: 500;
       margin-bottom: 5px;
-            
+
       &.pink-10 {
         color: var(--bordo-60);
       }
@@ -364,11 +418,11 @@
       font-weight: 400;
       font-size: 14px;
       color: var(--brown-50);
-           
+
       &.pink-10 {
         color: var(--red-90);
       }
-      
+
       &.bordo-60 {
         color: var(--pink-90);
       }
