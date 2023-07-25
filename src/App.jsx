@@ -1,11 +1,12 @@
 import { Cards } from './components/Cards';
+import { Tooltip } from './components/Tooltip';
 
 import './styles/global.scss';
 
 export function App() {
   return (
     <div className='container'>
-      <h2>Cards - Variations</h2>
+      {/* <h2>Cards - Variations</h2>
       <hr />
       <div className='container__wrapper'>
         <Cards className='card-vertical' />
@@ -42,6 +43,14 @@ export function App() {
         <Cards className='card-vertical' color="pink-10" size="small"/>
         <Cards className='card-vertical' color="pink-10" size="medium" />
         <Cards className='card-vertical' color="pink-10" size="large" />
+      </div> */}
+
+      <div className='container__wrapper gap'>
+        <Tooltip className="tooltip-primary-positive"/>
+        <Tooltip className="tooltip-primary-negative"/>
+        <Tooltip className="tooltip-primary-color"/>
+        <Tooltip className="tooltip-secondary-positive"/>
+        <Tooltip className="tooltip-secondary-negative"/>
       </div>
     </div>
   );
