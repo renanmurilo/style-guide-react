@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import TooltipView from './views/TooltipView';
 import ListView from './views/ListView';
 import BreadCrumbsView from './views/BreadCrumbsView';
+import ChipsView from './views/ChipsView';
 import './styles/global.scss';
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
           <Route path='tooltip' element={<TooltipView />} />
           <Route path='list' element={<ListView />} />
           <Route path='breadcrumb' element={<BreadCrumbsView />} />
+          <Route path='chips' element={<ChipsView />} />
         </Routes>
       </BrowserRouter>
     </div>

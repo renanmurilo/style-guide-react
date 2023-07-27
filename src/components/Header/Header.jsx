@@ -7,6 +7,7 @@ const Header = () => {
     <NavLink to="tooltip">Tooltip</NavLink>
     <NavLink to="list">List</NavLink>
     <NavLink to="breadcrumb">BreadCrumbs</NavLink>
+    <NavLink to="chips">Chips</NavLink>
   </nav>
 }
 
