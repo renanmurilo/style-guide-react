@@ -1,0 +1,143 @@
+.breadcrumb {
+  width: auto;
+  display: flex;
+  align-items: center;
+  height: 4.25rem;
+  padding: 0 1.25rem;
+
+  .breadcrumb-item {
+    .item {
+      display: flex;
+      align-items: center;
+
+      @media (min-width: 768px) {
+        &:hover {
+          p {
+            text-decoration: underline;
+            transition: all 0.4s;
+          }
+        }
+      }
+
+      img {
+        margin-right: 0.25rem;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--bordo-90);
+        transition: all 0.4s;
+      }
+    }
+  }
+
+  .arrow {
+    margin: 0 1rem;
+  }
+
+  &.breadcrumb-primary-positive {
+    background-color: var(--pink-10);
+    border-radius: 0.3125rem;
+
+    .breadcrumb-item {
+      .item {
+        p {
+          color: var(--red-50);
+        }
+      }
+
+      &:last-child {
+        .item {
+          p {
+            color: var(--red-60);
+          }
+        }
+      }
+    }
+  }
+
+  &.breadcrumb-primary-negative {
+    background-color: var(--bordo-60);
+    border-radius: 0.3125rem;
+
+    .breadcrumb-item {
+      .item {
+        p {
+          color: var(--pink-10);
+        }
+      }
+
+      &:last-child {
+        .item {
+          p {
+            color: var(--pink-50);
+          }
+        }
+      }
+    }
+  }
+
+  &.breadcrumb-primary-color {
+    background-color: var(--red-60);
+    border-radius: 0.3125rem;
+
+    .breadcrumb-item {
+      .item {
+        p {
+          color: var(--pink-50);
+        }
+      }
+
+      &:last-child {
+        .item {
+          p {
+            color: var(--gray-20);
+          }
+        }
+      }
+    }
+  }
+
+  &.breadcrumb-secondary-positive {
+    background-color: var(--gray-20);
+    border-radius: 0.3125rem;
+
+    .breadcrumb-item {
+      .item {
+        p {
+          color: var(--brown-50);
+        }
+      }
+
+      &:last-child {
+        .item {
+          p {
+            color: var(--brown-90);
+          }
+        }
+      }
+    }
+  }
+
+  &.breadcrumb-secondary-negative {
+    background-color: var(--brown-90);
+    border-radius: 0.3125rem;
+
+    .breadcrumb-item {
+      .item {
+        p {
+          color: var(--brown-10);
+        }
+      }
+
+      &:last-child {
+        .item {
+          p {
+            color: var(--gray-20);
+          }
+        }
+      }
+    }
+  }
+}
