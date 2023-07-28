@@ -1,0 +1,24 @@
+.navigationBar {
+
+  &__title-department {
+    margin-bottom: 30px;
+  }
+
+  &__department-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__menu-child {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    min-height: 250px;
+    position: absolute;
+    background-color: var(--gray-20);
+    padding: 50px 120px;
+  }
+
+  &__categoryTitle {
+    margin-bottom: 10px;
+  }
+}

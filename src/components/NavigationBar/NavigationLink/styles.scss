@@ -1,0 +1,19 @@
+.navigationBar__menu-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  
+  a {
+    color: var(--red-50);
+    border-top: 1px solid transparent;
+    transition: all .3s;
+
+    &:hover {
+      border-top: 1px solid var(--red-50);
+    }
+  }
+
+  & + li {
+    margin-left: 55px;
+  }
+}

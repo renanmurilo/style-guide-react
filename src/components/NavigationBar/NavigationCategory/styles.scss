@@ -1,0 +1,12 @@
+.navigationBar {
+  &__category-item {
+
+    a {
+      color: var(--black);
+
+      &:hover {
+        border-top: 0 !important;
+      }
+    }
+  }
+}
