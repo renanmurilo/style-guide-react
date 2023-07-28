@@ -1,13 +1,10 @@
+import styles from './styles.scss'
 
-
-export function Button1(props) {
-  return(
-    <a href="javascript:void(0)" className={`${props.className}__button-1 ${props.color}`}>Button</a>
-  )
-}
-
-export function Button2(props) {
-  return(
-    <a href="javascript:void(0)" className={`${props.className}__button-2 ${props.color}`}>Button</a>   
+export function Buttons(props) {
+  return (
+    <div className={`button-content ${props.color ? props.color : ''}`}>
+      <button className={`button-content__button ${props.color ? props.color : ''} ${props.size ? props.size : ''}`}>
+        {props.icon ? <img src={props.icon} alt="icon" /> : ''}Button</button>
+    </div>
   )
 }

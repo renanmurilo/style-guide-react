@@ -6,6 +6,7 @@ const Header = () => {
     <NavLink to="/">Cards</NavLink>
     <NavLink to="tooltip">Tooltip</NavLink>
     <NavLink to="list">List</NavLink>
+    <NavLink to="buttons">Buttons</NavLink>
   </nav>
 }
 
