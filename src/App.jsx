@@ -7,6 +7,7 @@ import BreadCrumbsView from './views/BreadCrumbsView';
 import ChipsView from './views/ChipsView';
 import NotificationView from './views/NotificationView';
 import BadgesView from './views/BadgesView';
+import LoadingView from './views/LoadingView';
 import './styles/global.scss';
 
 export function App() {
@@ -22,6 +23,7 @@ export function App() {
           <Route path='chips' element={<ChipsView />} />
           <Route path='notification' element={<NotificationView />} />
           <Route path='badges' element={<BadgesView />} />
+          <Route path='loading' element={<LoadingView />} />
         </Routes>
       </BrowserRouter>
     </div>

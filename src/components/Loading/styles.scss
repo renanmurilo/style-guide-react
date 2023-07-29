@@ -1,0 +1,129 @@
+.loading {
+  width: auto;
+  border-radius: 0.625rem;
+
+  .content-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid;
+      border-color: var(--pink-50);
+      border-right-color: var(--bordo-90);
+      border-left-color: var(--bordo-90);
+      border-bottom-color: var(--bordo-90);
+      animation: spinner-d3wgkg 1s infinite linear;
+    }
+
+    @keyframes spinner-d3wgkg {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--bordo-90);
+      margin-top: 0.5rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: var(--red-90);
+    }
+  }
+
+  &.loading-primary-positive {
+    background-color: var(--pink-10);
+
+    .content-loading {
+      p {
+        color: var(--pink-90);
+      }
+    }
+  }
+
+  &.loading-primary-negative {
+    background-color: var(--bordo-90);
+
+    .content-loading {
+      .spinner {
+        border-color: var(--red-90);
+        border-right-color: var(--pink-10);
+        border-left-color: var(--pink-10);
+        border-bottom-color: var(--pink-10);
+      }
+      h3 {
+        color: var(--pink-10);
+      }
+      p {
+        color: var(--pink-90);
+      }
+    }
+  }
+
+  &.loading-primary-color {
+    background-color: var(--red-60);
+
+    .content-loading {
+      .spinner {
+        border-color: var(--red-90);
+        border-right-color: var(--pink-10);
+        border-left-color: var(--pink-10);
+        border-bottom-color: var(--pink-10);
+      }
+      h3 {
+        color: var(--pink-10);
+      }
+      p {
+        color: var(--pink-90);
+      }
+    }
+  }
+
+  &.loading-secondary-positive {
+    background-color: var(--gray-20);
+
+    .content-loading {
+      .spinner {
+        border-color: var(--brown-10);
+        border-right-color: var(--brown-90);
+        border-left-color: var(--brown-90);
+        border-bottom-color: var(--brown-90);
+      }
+      h3 {
+        color: var(--brown-90);
+      }
+      p {
+        color: var(--brown-10);
+      }
+    }
+  }
+
+  &.loading-secondary-negative {
+    background-color: var(--brown-90);
+
+    .content-loading {
+      .spinner {
+        border-color: var(--brown-10);
+        border-right-color: var(--gray-20);
+        border-left-color: var(--gray-20);
+        border-bottom-color: var(--gray-20);
+      }
+      h3 {
+        color: var(--gray-20);
+      }
+
+      p {
+        color: var(--brown-10);
+      }
+    }
+  }
+}
