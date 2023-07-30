@@ -55,6 +55,31 @@ body {
 
     &.gap {
       gap: 2.5rem;
+
+      .box {
+        border-radius: 0.625rem;
+        padding: 2.5rem;
+
+        &.primary-positive {
+          background-color: var(--pink-10);
+        }
+
+        &.primary-negative {
+          background-color: var(--bordo-90);
+        }
+
+        &.primary-color {
+          background-color: var(--red-60);
+        }
+
+        &.secondary-positive {
+          background-color: var(--gray-20);
+        }
+
+        &.secondary-negative {
+          background-color: var(--brown-90);
+        }
+      }
     }
   }
 }

@@ -11,6 +11,7 @@ const Header = () => {
     <NavLink to="notification">Notifications</NavLink>
     <NavLink to="badges">Badges</NavLink>
     <NavLink to="loading">Loading</NavLink>
+    <NavLink to="radiosandcheckbox">Radios / Checkbox</NavLink>
   </nav>
 }
 

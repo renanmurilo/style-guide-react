@@ -8,6 +8,7 @@ import ChipsView from './views/ChipsView';
 import NotificationView from './views/NotificationView';
 import BadgesView from './views/BadgesView';
 import LoadingView from './views/LoadingView';
+import RadiosAndCheckboxView from './views/RadiosAndCheckboxView';
 import './styles/global.scss';
 
 export function App() {
@@ -24,6 +25,7 @@ export function App() {
           <Route path='notification' element={<NotificationView />} />
           <Route path='badges' element={<BadgesView />} />
           <Route path='loading' element={<LoadingView />} />
+          <Route path='radiosandcheckbox' element={<RadiosAndCheckboxView />} />
         </Routes>
       </BrowserRouter>
     </div>
