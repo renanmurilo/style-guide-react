@@ -12,6 +12,7 @@ const Header = () => {
     <NavLink to="badges">Badges</NavLink>
     <NavLink to="loading">Loading</NavLink>
     <NavLink to="radiosandcheckbox">Radios / Checkbox</NavLink>
+    <NavLink to="search">Search</NavLink>
   </nav>
 }
 
