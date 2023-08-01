@@ -2,7 +2,7 @@ import { NavigationBar } from '../components/NavigationBar'
 
 const NavigationBarView = () => {
   return (
-    <NavigationBar size={'small'} />
+    <NavigationBar size={'large'} />
   )
 }
 
