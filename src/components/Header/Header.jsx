@@ -8,6 +8,13 @@ const Header = () => {
     <NavLink to="list">List</NavLink>
     <NavLink to="buttons">Buttons</NavLink>
     <NavLink to="navigationbar">Navigation Bar</NavLink>
+    <NavLink to="breadcrumb">BreadCrumbs</NavLink>
+    <NavLink to="chips">Chips</NavLink>
+    <NavLink to="notification">Notifications</NavLink>
+    <NavLink to="badges">Badges</NavLink>
+    <NavLink to="loading">Loading</NavLink>
+    <NavLink to="radiosandcheckbox">Radios / Checkbox</NavLink>
+    <NavLink to="search">Search</NavLink>
   </nav>
 }
 

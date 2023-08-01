@@ -1,7 +1,8 @@
 :root {
   --gray-10: #fdf4f9;
   --gray-20: #f1eeea;
-  --gray-30: #E2DCD6;
+  --gray-30: #e2dcd6;
+  --gray-40: #e9e5e0;
 
   --brown-10: #ccc1b5;
   --brown-50: #89755f;
@@ -56,6 +57,31 @@ body {
 
     &.gap {
       gap: 2.5rem;
+
+      .box {
+        border-radius: 0.625rem;
+        padding: 2.5rem;
+
+        &.primary-positive {
+          background-color: var(--pink-10);
+        }
+
+        &.primary-negative {
+          background-color: var(--bordo-90);
+        }
+
+        &.primary-color {
+          background-color: var(--red-60);
+        }
+
+        &.secondary-positive {
+          background-color: var(--gray-20);
+        }
+
+        &.secondary-negative {
+          background-color: var(--brown-90);
+        }
+      }
     }
   }
 }

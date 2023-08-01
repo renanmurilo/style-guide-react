@@ -1,0 +1,89 @@
+.badge {
+  width: auto;
+  height: 6.7619rem;
+  border-radius: 0.625rem;
+
+  .content-badge {
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+
+    .image {
+      position: relative;
+      margin-right: 0.5625rem;
+
+      .count {
+        position: absolute;
+        top: 0.375rem;
+        right: -0.3125rem;
+        width: 0.875rem;
+        height: 0.875rem;
+        background-color: var(--red-60);
+        color: var(--white);
+        font-size: 0.625rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+      }
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--bordo-90);
+    }
+  }
+
+  &.badge-primary-positive {
+    background-color: var(--pink-10);
+  }
+
+  &.badge-primary-negative {
+    background-color: var(--bordo-90);
+
+    .content-badge {
+      h3 {
+        color: var(--pink-10);
+      }
+    }
+  }
+
+  &.badge-primary-color {
+    background-color: var(--red-60);
+
+    .content-badge {
+      .image {
+        .count {
+          background-color: var(--bordo-90);
+          color: var(--pink-10);
+        }
+      }
+
+      h3 {
+        color: var(--pink-10);
+      }
+    }
+  }
+
+  &.badge-secondary-positive {
+    background-color: var(--gray-20);
+
+    .content-badge {
+      h3 {
+        color: var(--brown-90);
+      }
+    }
+  }
+
+  &.badge-secondary-negative {
+    background-color: var(--brown-90);
+
+    .content-badge {
+      h3 {
+        color: var(--gray-20);
+      }
+    }
+  }
+}

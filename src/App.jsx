@@ -5,6 +5,13 @@ import TooltipView from './views/TooltipView';
 import ListView from './views/ListView';
 import ButtonsView from './views/ButtonsView';
 import NavigationBarView from './views/NavigationBarView';
+import BreadCrumbsView from './views/BreadCrumbsView';
+import ChipsView from './views/ChipsView';
+import NotificationView from './views/NotificationView';
+import BadgesView from './views/BadgesView';
+import LoadingView from './views/LoadingView';
+import RadiosAndCheckboxView from './views/RadiosAndCheckboxView';
+import SearchView from './views/SearchView';
 import './styles/global.scss';
 
 export function App() {
@@ -18,6 +25,13 @@ export function App() {
           <Route path='list' element={<ListView />} />
           <Route path='buttons' element={<ButtonsView />} />
           <Route path='navigationbar' element={<NavigationBarView />} />
+          <Route path='breadcrumb' element={<BreadCrumbsView />} />
+          <Route path='chips' element={<ChipsView />} />
+          <Route path='notification' element={<NotificationView />} />
+          <Route path='badges' element={<BadgesView />} />
+          <Route path='loading' element={<LoadingView />} />
+          <Route path='radiosandcheckbox' element={<RadiosAndCheckboxView />} />
+          <Route path='search' element={<SearchView />} />
         </Routes>
       </BrowserRouter>
     </div>
