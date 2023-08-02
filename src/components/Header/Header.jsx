@@ -15,6 +15,7 @@ const Header = () => {
     <NavLink to="loading">Loading</NavLink>
     <NavLink to="radiosandcheckbox">Radios / Checkbox</NavLink>
     <NavLink to="search">Search</NavLink>
+    <NavLink to="textfields">TextFields</NavLink>
   </nav>
 }
 
