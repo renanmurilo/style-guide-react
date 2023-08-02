@@ -1,9 +1,15 @@
-import { NavigationBar } from '../components/NavigationBar'
+import { NavigationBar } from '../components/NavigationBar';
 
 const NavigationBarView = () => {
   return (
-    <NavigationBar size={'large'} />
-  )
-}
+    <>
+      <NavigationBar size={'small'} />
+      <br />
+      <NavigationBar size={'medium'} />
+      <br />
+      <NavigationBar size={'large'} />
+    </>
+  );
+};
 
-export default NavigationBarView
+export default NavigationBarView;
