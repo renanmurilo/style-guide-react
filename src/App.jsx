@@ -10,6 +10,7 @@ import BadgesView from './views/BadgesView';
 import LoadingView from './views/LoadingView';
 import RadiosAndCheckboxView from './views/RadiosAndCheckboxView';
 import SearchView from './views/SearchView';
+import TextFieldsViews from './views/TextFieldsView';
 import './styles/global.scss';
 
 export function App() {
@@ -28,6 +29,7 @@ export function App() {
           <Route path='loading' element={<LoadingView />} />
           <Route path='radiosandcheckbox' element={<RadiosAndCheckboxView />} />
           <Route path='search' element={<SearchView />} />
+          <Route path='textfields' element={<TextFieldsViews />} />
         </Routes>
       </BrowserRouter>
     </div>
