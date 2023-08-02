@@ -12,6 +12,8 @@ import BadgesView from './views/BadgesView';
 import LoadingView from './views/LoadingView';
 import RadiosAndCheckboxView from './views/RadiosAndCheckboxView';
 import SearchView from './views/SearchView';
+import CarouselView from './views/CarouselView';
+import OverlaysView from './views/OverlaysView'
 import './styles/global.scss';
 
 export function App() {
@@ -32,6 +34,8 @@ export function App() {
           <Route path='loading' element={<LoadingView />} />
           <Route path='radiosandcheckbox' element={<RadiosAndCheckboxView />} />
           <Route path='search' element={<SearchView />} />
+          <Route path='carousel' element={<CarouselView />} />
+          <Route path='overlays' element={<OverlaysView />} />
         </Routes>
       </BrowserRouter>
     </div>

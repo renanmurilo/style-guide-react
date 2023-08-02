@@ -1,0 +1,35 @@
+.slick-slider {
+  width: 55% !important;
+  margin: 0 auto !important;
+
+  .slick-arrow {
+
+    &.slick-prev {
+      transform: rotate(180deg);
+      &::before {
+        content: '\2794' !important;
+        color: var(--black);
+      }
+    }
+    &.slick-next {
+      &::before {
+        content: '\2794';
+        color: var(--black);
+      }
+    }
+  }
+
+  .slick-dots {
+    
+    > li {
+
+      &.slick-active {
+        button {
+          &::before {
+            color: var(--red-60);
+          }
+        }
+      }
+    }
+  }
+}
