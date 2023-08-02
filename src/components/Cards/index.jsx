@@ -4,7 +4,7 @@ export function Cards(props) {
   return (
     <div className={`card ${props.className} ${props.size ? props.size : ''}`}>
       <div className={`${props.className}__image ${props.size ? props.size : ''}`}>
-        <img src={`/${props.className}.png`} alt="Woman" />
+        <img src={`https://renanmurilo.com.br/react/${props.className}.png`} alt="Woman" />
       </div>
       <div className={`${props.className}__bottom ${props.color} ${props.size ? props.size : ''}`}>
         <div className={`${props.className}__content-title`}>

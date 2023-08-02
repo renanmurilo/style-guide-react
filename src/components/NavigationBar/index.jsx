@@ -6,7 +6,7 @@ export function NavigationBar(props) {
   return (
     <div className={`navigationBar ${props.size ? props.size : ''}`}>
       <div className={'navigationBar__logo'}>
-        <img src="/Logo.png" alt="Logo" />
+        <img src="https://renanmurilo.com.br/react/Logo.png" alt="Logo" />
       </div>
       {props.size === 'small' ?
         <>
@@ -22,14 +22,14 @@ export function NavigationBar(props) {
           </nav>
           <div className={'navigationBar__search'}>
             <a href="javascript:void(0)">
-              <img src="/search.png" alt="Busca" />
+              <img src="https://renanmurilo.com.br/react/search.png" alt="Busca" />
             </a>
           </div>
           <div className={'navigationBar__user'}>
-            <img src="/user.png" alt="Usuário" />
+            <img src="https://renanmurilo.com.br/react/user.png" alt="Usuário" />
           </div>
         </div><button className={`navigationBar__menu-button`}>
-            <img src="/menu.png" alt="Menu" />
+            <img src="https://renanmurilo.com.br/react/menu.png" alt="Menu" />
           </button>
           </> : <>
           <nav className={'navigationBar__menu-nav'}>
@@ -43,10 +43,10 @@ export function NavigationBar(props) {
           </nav>
           <div className={'navigationBar__search'}>
             <a href="javascript:void(0)">
-              <img src="/search.png" alt="Busca" />
+              <img src="https://renanmurilo.com.br/react/search.png" alt="Busca" />
             </a>
           </div><div className={'navigationBar__user'}>
-            <img src="/user.png" alt="Usuário" />
+            <img src="https://renanmurilo.com.br/react/user.png" alt="Usuário" />
           </div>
         </>
       }

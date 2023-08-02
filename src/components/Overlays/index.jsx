@@ -11,11 +11,11 @@ export function Overlays(props) {
       <div className={'overlay__body'}>
         <form className={'overlay__form'}>
           <div className={'overlay__form-row'}>
-            <img src={`/${props.image ? props.image : 'user'}.png`} alt='user' />
+            <img src={`https://renanmurilo.com.br/react/${props.image ? props.image : 'user'}.png`} alt='user' />
             <input type='text' placeholder='Input Text' />
           </div>
           <div className={'overlay__form-row'}>
-            <img src='/user.png' alt='user' />
+            <img src='https://renanmurilo.com.br/react/user.png' alt='user' />
             <input type='text' placeholder='Input Text' />
           </div>
           <button className={'overlay__button'}>Button</button>
