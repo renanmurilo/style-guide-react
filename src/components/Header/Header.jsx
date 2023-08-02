@@ -17,6 +17,7 @@ const Header = () => {
     <NavLink to="search">Search</NavLink>
     <NavLink to="carousel">Carousel</NavLink>
     <NavLink to="overlays">Overlays</NavLink>
+    <NavLink to="textfields">TextFields</NavLink>
   </nav>
 }
 

@@ -14,6 +14,7 @@ import RadiosAndCheckboxView from './views/RadiosAndCheckboxView';
 import SearchView from './views/SearchView';
 import CarouselView from './views/CarouselView';
 import OverlaysView from './views/OverlaysView'
+import TextFieldsViews from './views/TextFieldsView';
 import './styles/global.scss';
 
 export function App() {
@@ -36,6 +37,7 @@ export function App() {
           <Route path='search' element={<SearchView />} />
           <Route path='carousel' element={<CarouselView />} />
           <Route path='overlays' element={<OverlaysView />} />
+          <Route path='textfields' element={<TextFieldsViews />} />
         </Routes>
       </BrowserRouter>
     </div>
